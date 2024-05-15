@@ -1,0 +1,118 @@
+main .wetitle-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 14vh 0 0 0;
+}
+
+main .wetitle-box div{
+    margin: 0 3vw 0 3vw;
+    border: 3px solid #38b6ff;
+    border-radius: 20px;
+    padding: 2vh 5vw 2vh 5vw;
+}
+
+main .wetitle-box h1{
+    font-size: 2;
+    font-weight: 550;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+main .wetitle-box img{
+    width: 5vw;
+}
+
+main .wecontent .wecontenthight .wemotivation-box p{
+    text-align: center;
+    width: 18vw;
+    font-weight: 550;
+}
+
+
+main .wecontent .wecontenthight .wemotivation-box{
+    border: 3px solid #38b6ff;
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .wecontent .wecontenthight{
+    display: flex;
+    flex-direction: row;
+}
+
+main .wecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 35vw;
+    margin-top: 12vh;
+}
+
+main .wecontent .wecontenthight .westudent-box{
+    margin-left: 5px;
+    border: 3px solid #38b6ff;
+    width: 20vw;
+    height: 35vh;
+}
+
+main .wecontent .wecontentlower{
+    border: 3px solid #38b6ff;
+    width: 20vw;
+    height: 35vh;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .wecontent .storm{
+    position: absolute;
+    margin-right: 51vw;
+    width: 10vw;
+}
+
+main .wecontent .student{
+    position: absolute;
+    width: 14vw;
+    margin-left: 36vw;
+    margin-top: 18vw;
+}
+
+main .wecontent .netwe{
+    position: absolute;
+    width: 30vw;
+    margin-left: 95vw;
+    margin-top: 5vw;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+main .wecontent .wecontenthight .westudent-box p{
+    text-align: center;
+    width: 18vw;
+    font-weight: 550;
+}
+
+
+main .wecontent .wecontenthight .westudent-box{
+    border: 3px solid #38b6ff;
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .wecontent .wecontentlower p{
+    text-align: center;
+    width: 18vw;
+    font-weight: 550;
+}
+
+

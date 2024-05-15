@@ -1,0 +1,63 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20vh;
+    background-color: rgb(254, 250, 250);
+    height: 10vh;
+    font-size: 0.9rem
+
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer div ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+footer div img{
+    width: 9vw;
+    margin: 0 2vw 0 0;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+}
+
+footer div ul li a:hover{
+    color: #38b6ff;
+}
+
+footer div ul li{
+    margin: 0 2vw 0 0;
+}
+
+footer div button{
+    background-color: #38b6ff;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.6rem 2rem;
+    border-radius: 5rem 2rem 5rem 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease;
+    border: white solid 2px;
+}
+
+footer div button:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: #38b6ff solid 2px;
+}
+
+
