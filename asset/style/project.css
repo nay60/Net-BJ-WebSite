@@ -1,0 +1,80 @@
+#project{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+}
+.project-object{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-object button{
+    margin-top: 2vw;
+    background-color: #38b6ff;
+    color: white;
+    border: none;
+    padding: 0.7vw 4vw 0.7vw 4vw;
+    border-radius: 5rem 2rem 5rem 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease;
+    border: white solid 2px;
+}
+
+.project-object button:hover{
+    background-color: white;
+    color: black;
+    border: #38b6ff solid 2px;
+}
+
+.project-object video{
+    width: 35vw;
+}
+
+#project .project-header-box{
+    border: 3px solid #38b6ff;
+    width: 35vw;
+    height: 20vw;
+    border-radius: 120px 40px 120px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#project .project-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#project .title-project div{
+    margin: 0 3vw 0 3vw;
+    border: 3px solid #38b6ff;
+    border-radius: 20px;
+    width: 23vw;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#project .title-project{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7vw;
+}
+
+#project .title-project div h1{
+    margin: 0;
+    padding: 0;
+    font-size: 1.7vw;
+}
+
+#project .project-content .project-header-box p{
+    text-align: center;
+    width: 32vw;
+    font-weight: 550;
+    font-size: 1.11vw;
+}
