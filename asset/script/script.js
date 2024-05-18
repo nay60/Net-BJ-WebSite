@@ -17,3 +17,16 @@ video.addEventListener('ended', function() {
     buttonplay.innerHTML = 'Pause';
 });
 
+document.querySelectorAll(".contact").forEach(function(element) {
+    element.addEventListener("click", function() {
+        document.querySelector(".popup-box").style.display = "flex";
+    });
+});
+
+document.querySelector(".exit").addEventListener("click", function() {
+    event.preventDefault();
+    document.querySelector(".popup-box").style.display = "none";
+})
+
+
+

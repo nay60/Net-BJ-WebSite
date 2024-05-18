@@ -1,0 +1,119 @@
+.popup-box{
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    backdrop-filter: blur(2px);
+}
+
+
+.popup-box .popup-content{
+    border: 3px solid #38b6ff;
+    width: 70vw;
+    height: 40vw;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 3vw;
+}
+
+.popup-box .popup-content .popup-header h1{
+    margin: 0 0 1vw 0;
+    padding: 0;
+    color: #38b6ff;
+    font-size: 2.3vw;
+}
+
+.popup-box .popup-content .popup-header h2{
+    margin: 0;
+    padding: 0;
+    font-size: 1.7vw;
+}
+
+.popup-box .popup-content .popup-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-box .popup-content .popup-form form .name-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.popup-box .popup-content .popup-form form .name-box div{
+    margin: 0 1vw 1vw 1vw;
+}
+
+.popup-box .popup-content .popup-form form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    align-items: center;
+}
+
+.popup-box .popup-content .popup-form form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 1vw 0;
+}
+
+.popup-box .popup-content .popup-form form div input{
+    text-align: center;
+    width: 10vw;
+    height: 0.3vw;
+    border: 2px solid #38b6ff;
+    border-radius: 10px;
+    padding: 0.5vw;
+}
+
+.popup-box .popup-content .popup-form form div #email{
+    width: 15vw;
+}
+
+.popup-box .popup-content .popup-form form div #message{
+    width: 30vw;
+    height: 10vw;
+    resize: none;
+    border: 2px solid #38b6ff;
+    border-radius: 10px;
+}
+
+.popup-box .popup-content .popup-form form div button{
+    margin-top: 1vw;
+    background-color: #38b6ff;
+    color: white;
+    border: none;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    border-radius: 5rem 2rem 5rem 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease;
+    border: white solid 2px;
+}
+
+.popup-box .popup-content .popup-form form div button:hover{
+    background-color: white;
+    color: black;
+    border: #38b6ff solid 2px;
+}
+
+.popup-box .popup-content .popup-form form div label{
+    font-size: 1vw
+}
+
+.popup-box .popup-content .popup-form form .buttonform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20vw;
+}
