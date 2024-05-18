@@ -3,14 +3,14 @@ h1 span{
 }
 
 h1{
-    font-size: 2.14rem;
+    font-size: 2.14vw;
     font-weight: 600;
     
 }
 
 header .summary-box{
-    margin-top: 6.5rem;
-    margin-left: 12rem;
+    margin-top: 7vw;
+    margin-left: 12vw;
     padding: 3vh 2vw 6vh 3vw; 
     display: flex;
     flex-direction: column;
@@ -22,8 +22,7 @@ header .summary-box{
 
 header{
     display: flex;
-    margin: 4rem 2rem 0 2rem;
-    flex-direction: row;
+    margin: 4vw 2vw 0 2vw;
 }
 
 header .summary-box p{
@@ -109,5 +108,39 @@ header .home-devis-box p{
     color: white;
 }
 
+
+@media screen and (max-width:960px) {
+    h1{
+       font-size: 4.14vh;
+       text-align: center;
+    }
+
+    header{
+        flex-direction: column-reverse;
+        margin: 8vh 0 0 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    header .summary-box{
+        width: 34vh;
+        height: 50vh;
+        margin: 14vh 0 0 0;
+        padding: 0;
+    }
+
+    header .summary-box p{
+        margin-top: 0.8vh;
+        font-size: 1.8vh;
+        text-align: center;
+    }
+
+    header .home-devis-box{
+        width: 34vh;
+        height: 50vh;
+        margin: 24vh 0 0 0;
+        padding: 0;
+    }
+}
 
 
