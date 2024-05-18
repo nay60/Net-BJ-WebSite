@@ -119,7 +119,7 @@ header .home-devis-box p{
 
     header{
         flex-direction: column-reverse;
-        margin: 5vh 0 0 0;
+        margin: 9vh 0 0 0;
         padding: 0;
         align-items: center;
     }
@@ -128,7 +128,7 @@ header .home-devis-box p{
         justify-content: center;
         width: 37vh;
         height: 60vh;
-        margin: 14vh 0 0 0;
+        margin: 3vh 0 0 0;
         padding: 0 1vh 0 1vh;
     }
 
