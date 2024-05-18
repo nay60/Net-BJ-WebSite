@@ -111,8 +111,10 @@ header .home-devis-box p{
 
 @media screen and (max-width:960px) {
     h1{
-       font-size: 4.14vh;
+       font-size: 5.14vh;
        text-align: center;
+       margin: 0 0 0.8vh 0;
+       padding: 0 0 0 0;
     }
 
     header{
@@ -123,15 +125,16 @@ header .home-devis-box p{
     }
 
     header .summary-box{
-        width: 34vh;
-        height: 50vh;
+        justify-content: center;
+        width: 37vh;
+        height: 60vh;
         margin: 14vh 0 0 0;
-        padding: 0;
+        padding: 0 1vh 0 1vh;
     }
 
     header .summary-box p{
         margin-top: 0.8vh;
-        font-size: 1.8vh;
+        font-size: 2vh;
         text-align: center;
     }
 
