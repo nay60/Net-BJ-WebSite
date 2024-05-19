@@ -90,6 +90,31 @@ footer .rightfooter-box{
         margin-top: 10vh;
         flex-direction: column;
     }
+
+    footer div{
+        flex-direction: column;
+    }
+
+    footer div img{
+        margin-top: 2vh;
+        width: 15vh;
+    }
+
+    footer div p{
+        margin-top: 1vh;
+    }
+
+    footer .rightfooter-box{
+        flex-direction: column-reverse;
+    }
+
+    footer .rightfooter-box .social li a img{
+        width: 3vh;
+    }
+
+    footer .rightfooter-box .navfooter li{
+        margin: 0 1.2vh 0 1.2vh
+    }
     
 }
 
