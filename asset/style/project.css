@@ -98,19 +98,19 @@
     }
 
     #project .project-content .project-header-box{
-        width: 30vh;
-        height: 40vh;
+        width: 42vh;
+        height: 50vh;
         border-radius: 60px;
     }
 
     #project .project-content .project-header-box p{
-        width: 27vh;
-        font-size: 1.5vh;
+        width: 37vh;
+        font-size: 1.9vh;
     }
 
     #project .project-object video{
         margin-top: 4vh;
-        width: 40vh;
+        width: 42vh;
     }
 
     #project .project-object button{

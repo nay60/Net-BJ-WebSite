@@ -126,7 +126,7 @@ header .home-devis-box p{
 
     header .summary-box{
         justify-content: center;
-        width: 37vh;
+        width: 42vh;
         height: 60vh;
         margin: 3vh 0 0 0;
         padding: 0 1vh 0 1vh;
@@ -139,7 +139,7 @@ header .home-devis-box p{
     }
 
     header .home-devis-box{
-        width: 37vh;
+        width: 42vh;
         height: 60vh;
         margin: 24vh 0 0 0;     
         padding: 0 1vh 0 1vh;
