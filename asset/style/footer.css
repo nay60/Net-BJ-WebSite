@@ -89,6 +89,7 @@ footer .rightfooter-box{
     footer{
         margin-top: 10vh;
         flex-direction: column;
+        height: 30vh;
     }
 
     footer div{
