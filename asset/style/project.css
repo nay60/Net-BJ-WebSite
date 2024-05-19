@@ -78,3 +78,43 @@
     font-weight: 550;
     font-size: 1.11vw;
 }
+
+@media screen and (max-width:960px) {
+    #project{
+        margin-top: 10vh;
+    }
+    #project .title-project div{
+        width: 23vh;
+        height: 4.5vh;
+    }
+
+    #project .title-project div h1{
+        font-size: 2.5vh;
+    }
+
+    #project .project-content{
+        flex-direction: column;
+        margin-top: 4vh
+    }
+
+    #project .project-content .project-header-box{
+        width: 30vh;
+        height: 40vh;
+        border-radius: 60px;
+    }
+
+    #project .project-content .project-header-box p{
+        width: 27vh;
+        font-size: 1.5vh;
+    }
+
+    #project .project-object video{
+        margin-top: 4vh;
+        width: 40vh;
+    }
+
+    #project .project-object button{
+        margin-top: 4vh;
+        padding: 1vh 4vh 1vh 4vh;
+    }
+}
