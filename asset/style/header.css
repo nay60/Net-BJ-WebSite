@@ -139,10 +139,36 @@ header .home-devis-box p{
     }
 
     header .home-devis-box{
-        width: 34vh;
-        height: 50vh;
-        margin: 24vh 0 0 0;
-        padding: 0;
+        width: 37vh;
+        height: 60vh;
+        margin: 24vh 0 0 0;     
+        padding: 0 1vh 0 1vh;
+    }
+
+    header .home-devis-box div p{
+        margin-top: 0.8vh;
+        font-size: 2.3vh;
+        text-align: center;
+    }
+
+    header .home-devis-box .devis{
+        margin-top: 2vh;
+        width: 15vh;
+    }
+
+    header .home-devis-box h1{
+        font-size: 2.9vh;
+        margin-top: 4vh;
+    }
+
+    header .home-devis-box .confiance{
+        width: 13vh;
+        margin-top: 5vh;
+    }
+
+    header .home-devis-box button{
+        margin-top: 6vh;
+        padding: 0.7vh 4vh 0.7vh 4vh;
     }
 }
 

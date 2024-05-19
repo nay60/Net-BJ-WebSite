@@ -121,4 +121,71 @@ main .wecontent .wecontentlower p{
     font-size: 1.13vw;
 }
 
+@media screen and (max-width:960px) {
+    main .wecontent .wecontenthight{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4vh;
+    }
+
+    main .wecontent{
+        margin: 0 0 0 0;
+    }
+
+    main .wecontent .wecontenthight .westudent-box{
+        margin-left: 0;
+        width: 26vh;
+        height: 23.5vh;
+        margin-right: 12vh
+    }
+
+    main .wecontent .wecontenthight .wemotivation-box{
+        width: 26vh;
+        height: 23.5vh;
+        margin-left: 12vh;
+        margin-bottom: 3vh;
+    }
+
+    main .wecontent .wecontentlower{
+        width: 26vh;
+        height: 23.5vh;
+        margin-left: 12vh;
+        margin-top: 3vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .wecontent .netwe{
+        display: none;
+    }
+
+    main .wecontent .storm{
+        margin-right: 30vh;
+        margin-top: 10vh;
+        width: 10vh;
+    }
+
+    main .wecontent .student{
+        margin-left: 30vh;
+        margin-top: 40vh;
+        width: 14vh;
+    }
+
+    main .wecontent .wecontentlower p{
+        font-size: 1.55vh;
+        width: 24vh;
+    }
+
+    main .wecontent .wecontenthight .westudent-box p{
+        font-size: 1.45vh;
+        width: 24vh;
+    }
+
+    main .wecontent .wecontenthight .wemotivation-box p{
+        font-size: 1.55vh;
+        width: 24vh;
+    }   
+
+}
+
 
