@@ -17,19 +17,79 @@ header #headerbox{
     justify-content: space-around;
 }
 
-header #headerbox #telephone-box div{
-    height: 32vw;
-    width: 15.5vw;
-    background-image: url('../img/telephone1.png');
-    background-size: cover; /* pour couvrir toute la div */
-    background-position: bottom; /* pour centrer l'image */
-}
-
-
 header #headerbox #telephone-box{
     display: flex;
     justify-content: center;
     align-items: end;
 }
 
+header #headerbox #telephone-box div{
+    width: 20vw;
+    height: 50vh;
+    background-image: url('../img/telephone2.png');
+    background-size: contain; 
+    background-position: bottom; 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+header #headerbox #telephone-box div:hover{
+    transform: scale(1.01);
+}
+
+header #headerbox #telephone-box div button{
+    background-color: #38b6ff;
+    color: white;
+    border: none;
+    padding: 0.6rem 2rem;
+    border-radius: 5rem 2rem 5rem 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease;
+    border: #38b6ff solid 2px;    
+    margin-top: 8vh;
+}
+
+header #headerbox #telephone-box div button:hover{
+    background-color: white;
+    color: black;
+}
+
+header #headerbox #telephone-box div h2{
+    margin-top: 5vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+header #headerbox #telephone-box div img{
+    margin-top: 0.5vw;
+    width: 5vw;
+}
+
+header #headerbox #telephone-box div p{
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+header #headerbox #titleheader-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 38.7vw;
+}
+
+header #headerbox #titleheader-box h1{
+    font-size: 3vw;
+    font-weight: 600;
+    margin: 0 0 1vw 0;  
+    padding: 0;
+}
+
+header #headerbox #titleheader-box p{
+    font-size: 1.12vw;
+    margin: 0.2vw 0 0.2vw 0;  
+    padding: 0;
+}
