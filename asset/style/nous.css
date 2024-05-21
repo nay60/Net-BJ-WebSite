@@ -1,193 +1,54 @@
-main .wetitle-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 14vh 0 0 0;
-}
-
-main .wetitle-box div{
-    margin: 0 3vw 0 3vw;
-    border: 3px solid #38b6ff;
-    border-radius: 20px;
-    padding: 2vh 5vw 2vh 5vw;
-}
-
-main .wetitle-box h2{
-    font-size: 2;
-    font-weight: 550;
-    color: black;
-    padding: 0;
-    margin: 0;
-}
-
-main .wetitle-box img{
-    width: 5vw;
-}
-
-main .wecontent .wecontenthight .wemotivation-box p{
-    text-align: center;
-    width: 18vw;
-    font-weight: 550;
-    font-size: 1.13vw;
-}
-
-
-main .wecontent .wecontenthight .wemotivation-box{
-    border: 3px solid #38b6ff;
-    width: 20vw;
-    height: 17.5vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-}
-
-main .wecontent .wecontenthight{
-    display: flex;
-    flex-direction: row;
-}
-
-main .wecontent{
+#we{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 35vw;
-    margin-top: 12vh;
-}
-
-main .wecontent .wecontenthight .westudent-box{
-    margin-left: 5px;
-    border: 3px solid #38b6ff;
-    width: 20vw;
-    height: 17.5vw;
-    border-radius: 10px;
-}
-
-main .wecontent .wecontentlower{
-    border: 3px solid #38b6ff;
-    width: 20vw;
-    height: 17.5vw;
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
-
-main .wecontent .storm{
-    position: absolute;
-    margin-right: 51vw;
-    width: 10vw;
-}
-
-main .wecontent .student{
-    position: absolute;
-    width: 14vw;
-    margin-left: 36vw;
-    margin-top: 18vw;
-}
-
-main .wecontent .netwe{
-    position: absolute;
-    width: 30vw;
-    margin-left: 95vw;
     margin-top: 5vw;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
-main .wecontent .wecontenthight .westudent-box p{
-    text-align: center;
-    width: 18vw;
-    font-weight: 550;
-    font-size: 1.11vw;
-}
-
-
-main .wecontent .wecontenthight .westudent-box{
-    border: 3px solid #38b6ff;
-    width: 20vw;
-    height: 17.5vw;
+.titlewe{
     display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.titlewe h1{
+    font-size: 2.5vw;
+}
+
+.wecontent{
+    display: flex;
+    margin-top: 5vw;
+    justify-content: center;
+    background-image: url("../img/backgroundwe3.png");
+    background-size: cover; /* pour couvrir toute la div */
+    background-position: center; /* pour centrer l'image */
+    align-items: center ;
+    height: 70vh;
+    width: 90vw;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: 4px solid rgb(252, 251, 251);
+}
+
+.wecontent div{
+    width: 25vw;
+    height: 30vw;
+    border: 4px solid rgb(234, 233, 233);
+    border-radius: 35px;
+    margin: 0 0.7vw 0 0.7vw;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-main .wecontent .wecontentlower p{
+.wecontent div p{
     text-align: center;
-    width: 18vw;
-    font-weight: 550;
-    font-size: 1.13vw;
+    font-size: 1.1vw;
 }
 
-@media screen and (max-width:960px) {
-    main .wecontent .wecontenthight{
-        flex-direction: column;
-        align-items: center;
-        margin-top: 4vh;
-    }
-
-    main .wecontent{
-        margin: 0 0 0 0;
-    }
-
-    main .wecontent .wecontenthight .westudent-box{
-        margin-left: 0;
-        width: 30vh;
-        height: 27.5vh;
-        margin-right: 14vh
-    }
-
-    main .wecontent .wecontenthight .wemotivation-box{
-        width: 30vh;
-        height: 27.5vh;
-        margin-left: 14vh;
-        margin-bottom: 3vh;
-    }
-
-    main .wecontent .wecontentlower{
-        width: 30vh;
-        height: 27.5vh;
-        margin-left: 14vh;
-        margin-top: 3vh;
-        justify-content: center;
-        align-items: center;
-    }
-
-    main .wecontent .netwe{
-        display: none;
-    }
-
-    main .wecontent .storm{
-        margin-right: 30vh;
-        margin-top: 10vh;
-        width: 10vh;
-    }
-
-    main .wecontent .student{
-        margin-left: 31vh;
-        margin-top: 40vh;
-        width: 14vh;
-    }
-
-    main .wecontent .wecontentlower p{
-        font-size: 1.65vh;
-        width: 24vh;
-    }
-
-    main .wecontent .wecontenthight .westudent-box p{
-        font-size: 1.60vh;
-        width: 24vh;
-    }
-
-    main .wecontent .wecontenthight .wemotivation-box p{
-        font-size: 1.65vh;
-        width: 24vh;
-    }
-    
-    
-
+.wecontent div img{
+    width: 23vw;
+    margin: 2vh 0 2vh 0;
+    border-radius: 15px;
 }
-
-
