@@ -68,8 +68,10 @@
 
     .wecontent{
         flex-direction: column;
-        height: 115vh;
+        height: 100vh;
         background-image: url("../img/backgroundheader2tel.png");
+        padding: 5vh 0 5vh 0;  
+
     }
 
     .wecontent div{
