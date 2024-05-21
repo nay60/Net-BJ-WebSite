@@ -103,7 +103,9 @@ header #headerbox #titleheader-box p{
         margin-bottom: 6vh; 
         background-image: url("../img/backgroundheader1tel.png");
         background-size: cover;   
-        background-position: right;   
+        background-position: right;
+        height: 95vh;
+        justify-content: center;  
     }
 
     header #headerbox #titleheader-box{
