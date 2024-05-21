@@ -93,3 +93,58 @@ header #headerbox #titleheader-box p{
     margin: 0.2vw 0 0.2vw 0;  
     padding: 0;
 }
+
+@media screen and (max-width:1100px) {
+    header #headerbox{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+        margin-top: 10vh;
+        margin-bottom: 6vh; 
+        background-image: url("../img/backgroundheader1tel.png");
+        background-size: cover;   
+        background-position: right;   
+    }
+
+    header #headerbox #titleheader-box{
+        align-items: center;
+        text-align: center;
+        width: 38.7vh;
+                 
+    }
+
+    header #headerbox #titleheader-box h1{
+        margin-top: 1.4vh;
+        font-size: 5vh;
+    }
+
+    header #headerbox #titleheader-box p{
+        margin-top: 1.9vh;
+        font-size: 1.7vh;
+    }
+
+    header #headerbox #telephone-box div{
+        width: 20vh;
+        height: 30vh;
+    }
+
+    header #headerbox #telephone-box div button{
+        padding: 0.2rem 1rem;
+        margin: 3vh 0 0 0;
+    }
+
+    header #headerbox #telephone-box div h2{
+        margin-top: 8.5vh;
+        font-size: 1.5vh;
+    }
+
+    header #headerbox #telephone-box div img{
+        margin-top: 0.5vh;
+        width: 7vh;
+    }
+
+    header #headerbox #telephone-box div p{
+        font-size: 1.3vh;
+    }
+    
+}

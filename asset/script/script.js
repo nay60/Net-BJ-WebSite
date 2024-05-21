@@ -28,5 +28,11 @@ document.querySelector(".exit").addEventListener("click", function() {
     document.querySelector(".popup-box").style.display = "none";
 })
 
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        document.querySelector('.popup-box').style.display = 'none';
+    }
+});
+
 
 
