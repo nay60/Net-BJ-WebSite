@@ -1,0 +1,18 @@
+{
+  "name": "net'bj",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000N\u0000e\u0000t\u0000-\u0000B\u0000J\u0000-\u0000W\u0000e\u0000b\u0000S\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  }
+}

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="fr">
     <title>Net'BJ</title>
     <meta name="description" content="Net'Bj votre agence web">
     <meta name="keywords" content="web, site-web, accompagnement">
@@ -10,6 +11,9 @@
     <meta property="og:description" content="Net'Bj votre agence web">
     <link rel="stylesheet" href="asset/style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'">
+    <link rel="icon" href="asset\img\Blanc-et-Bleu-Simple-Ordinateur-Logo-_1_.ico" type="image/x-icon">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
 </head>
 
 <body>
@@ -24,8 +28,8 @@
         </ul>
         <img class="menuham" src="asset\img\menuham.png" alt="">
     </nav>
-    <header>
-        <div id="headerbox">
+    <header >
+        <div id="headerbox" data-aos="fade-top" data-aos-duration="2000">
             <div id="titleheader-box">
                 <h1>Votre nouvelle <span>agence web</span></h1>
                 <p>Développez votre présence en ligne avec un site web professionnel conçu pour propulser votre
@@ -46,33 +50,34 @@
         </div>
     </header>
     <main>
-        <section id="we">
+        <section id="we" data-aos="fade-top" data-aos-duration="2000">
             <div class="titlewe">
                 <h1>Qui sommes <span>nous</span> ?</h1>
             </div>
             <div class="wecontent">
                 <div>
-                    <img src="asset\img\esaip.webp" alt="">
+                    <img src="asset\img\esaip.webp" data-aos="fade-top" data-aos-duration="3000" alt="">
                     <p>En tant qu'étudiants en école d'ingénieur, nous sommes <span>constamment</span> en train d'<span>apprendre</span> et de nous former pour rester à la <span>pointe des dernières technologies</span> et des meilleures pratiques. Notre <span>flexibilité</span> et notre <span>réactivité</span> nous permettent de nous adapter <span>rapidement</span> aux demandes de nos clients et de fournir des <span></span>solutions sur mesure qui répondent à leurs besoins spécifiques.</p>
                 </div>
                 <div class="wecontent-spacebox">
-                    <img src="asset\img\numériqque.jpeg" alt="">
+                    <img src="asset\img\numériqque.jpeg" data-aos="fade-top" data-aos-duration="3500" alt="">
                     <p>Nous sommes ouverts à toute proposition et nous savons nous <span>adapter rapidement</span> aux besoins changeants de nos clients. Notre <span>jeunesse</span> est notre <span>force</span>, nous permettant de penser de manière <span>créative</span> et de trouver des <span>solutions novatrices</span> pour répondre aux défis complexes du monde numérique d'aujourd'hui.</p>
                 </div>
                 <div class="wecontent-spacebox">
-                    <img src="asset\img\collaboration.jpg" alt="">
+                    <img src="asset\img\collaboration.jpg" data-aos="fade-top" data-aos-duration="4000" alt="">
                     <p>Nous croyons en une culture d'<span>équipe collaborative</span>, où chaque membre apporte ses <span>idées</span> et ses <span>compétences</span> pour contribuer au succès collectif. Nous sommes dévoués à fournir un <span>service client exceptionnel</span>, en comprenant les besoins uniques de chaque client et en fournissant des solutions qui dépassent leurs <span>attentes</span>.</p>
                 </div>
             </div>
         </section>
-        <section id="project">
+        <section id="project" data-aos="fade-top" data-aos-duration="2000">
             <div class="titleproject">
                 <h1>Nos <span>projets</span></h1>
             </div>
             <div class="project-content">
-                <div class="video-box">
-                    <video class="video" src="asset\img\Vidéo sans titre ‐ Réalisée avec Clipchamp (3).mp4"></video> 
-                    <button class="button-play">Play</button>
+                <div class="projectdoo">
+                    <h3>Ils nous ont fait <span>confiance</span> !</h3>
+                    <div id="first"><img src="asset\img\logomaindeju-removebg-preview.png" alt=""></div>
+                    <p>serez vous le prochain ?</p>
                 </div>
                 <div>
                     <h2>Notre <span>volonté</span></h2>
@@ -89,38 +94,24 @@
             </div>
         </section>
         <section class="popup-box">
-            <div class="popup-content">
-                <div class="popup-header">
-                    <h1>Contact</h1>
-                    <h2>Remplissez ce formulaire pour nous contacter :</h2>
+            <div class="popup-box-content">
+                <div class="leftpopup">
+                    <img src="asset\img\contactV2.png" alt="">
+                    <p>contact@netbj.fr</p>
                 </div>
-                <div class="popup-form">
-                    <form action="">
-                        <div class="name-box">
-                            <div>
-                                <label for="name">Nom</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            <div>
-                                <label for="prenom">Prenom</label>
-                                <input type="text" id="prenom" name="prenom" required>
-                            </div>
-                        </div>
-
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div>
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" required></textarea>
-                        </div>
-                        <div class="buttonform">
-                            <button type="submit">Envoyer</button>
-                            <button class="exit">Annuler</button>
-                        </div>
-                    </form>
-                </div>
+                <form action="http://localhost:3000/send-email" method="post">
+                    <h2><span>Contactez-nous</span></h2>
+                    <p>Remplissez ce formulaire afin que l'on puisse rentrer en contact et trouver la solution qui vous convient le mieux</p>
+                    <input type="text" id="name" name="name" placeholder="Nom">
+                    <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="text" id="subject" name="subject" placeholder="Sujet">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <div>
+                        <button type="submit" class="submit">Envoyer</button>
+                        <button class="exit">Annuler</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
@@ -147,5 +138,8 @@
     </footer>
 </body>
 <script src="asset\script\script.js"></script>
-
+<script src="node_modules/aos/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
